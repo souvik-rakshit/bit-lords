@@ -96,5 +96,33 @@
         "rating": 4.8
       }
     ]
+  },
+  "liveStreamProductMap": {
+    "1" : [
+      {
+        "id": "1" ,
+        "name": "Product1" ,
+        "productImg": "http://img",
+        "rating": 4.5
+      } ,
+      {
+        "id": "2" ,
+        "name": "Product2" ,
+        "productImg": "http://img2",
+        "rating": 2.5
+      } ,
+      {
+        "id": "3" ,
+        "name": "Product3" ,
+        "productImg": "http://img3",
+        "rating": 3.5
+      } ,
+      {
+        "id": "4" ,
+        "name": "Product4" ,
+        "productImg": "http://img4",
+        "rating": 5.0
+      }
+    ]
   }
 }

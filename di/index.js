@@ -14,5 +14,6 @@ container.register({
 
 container.register('category', asClass(require('../api/category'), getScope()));
 container.register('seller', asClass(require('../api/seller'), getScope()));
+container.register('liveStreamProduct', asClass(require('../api/liveStreamProduct'), getScope()));
 
 module.exports = container;

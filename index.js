@@ -29,6 +29,10 @@ app.get('/getNearbySellers', (req, res, next) => {
     req.container.resolve('seller').getNearbySellers(req, res).catch(next);
 });
 
+app.get('/getLiveStreamProduct', (req, res, next) => {
+    req.container.resolve('liveStreamProduct').getNearbySellers(req, res).catch(next);
+});
+
 const port = 3000, keepAliveTimeout = 12000;
 
 // Binds to a port

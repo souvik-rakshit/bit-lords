@@ -1,0 +1,100 @@
+{
+  "categories": [
+    {
+      "id": "1" ,
+      "name": "Dress" ,
+      "imgUrl": "http://img"
+    } ,
+    {
+      "id": "2" ,
+      "name": "Jewellery" ,
+      "imgUrl": "http://img2"
+    } ,
+    {
+      "id": "3" ,
+      "name": "Saree" ,
+      "imgUrl": "http://img3"
+    } ,
+    {
+      "id": "4" ,
+      "name": "Home Decor" ,
+      "imgUrl": "http://img4"
+    }
+  ] ,
+  "categoryToLiveVideoMap": {
+    "1": [
+      {
+        "liveStreamId": "5" ,
+        "liveVideoUrl": "http://vid-1" ,
+        "thumbnail": "http://thumbnail-1" ,
+        "sellerId": "123" ,
+        "sellerName": "seller1" ,
+        "rating": 3.5
+      }
+    ] ,
+    "2": [
+      {
+        "liveStreamId": "6" ,
+        "liveVideoUrl": "http://vid-2" ,
+        "thumbnail": "http://thumbnail-2" ,
+        "sellerId": "1234" ,
+        "sellerName": "seller2" ,
+        "rating": 4.5
+      }
+    ] ,
+    "3": [
+      {
+        "liveStreamId": "7" ,
+        "liveVideoUrl": "http://vid-3" ,
+        "thumbnail": "http://thumbnail-3" ,
+        "sellerId": "1235" ,
+        "sellerName": "seller3" ,
+        "rating": 4.7
+      }
+    ] ,
+    "4": [
+      {
+        "liveStreamId": "8" ,
+        "liveVideoUrl": "http://vid-4" ,
+        "thumbnail": "http://thumbnail-4" ,
+        "sellerId": "1236" ,
+        "sellerName": "seller4" ,
+        "rating": 4.8
+      }
+    ]
+  } ,
+  "categoryToSellerMap": {
+    "1": [
+      {
+        "thumbnail": "http://thumbnail-1" ,
+        "sellerId": "222" ,
+        "sellerName": "seller1" ,
+        "rating": 3.5
+      }
+    ] ,
+    "2": [
+      {
+        "thumbnail": "http://thumbnail-2" ,
+        "sellerId": "333" ,
+        "sellerName": "seller2" ,
+        "rating": 4.5
+      }
+    ] ,
+    "3": [
+      {
+        "thumbnail": "http://thumbnail-3" ,
+        "sellerId": "444" ,
+        "sellerName": "seller3" ,
+        "rating": 4.7
+      }
+    ] ,
+    "4": [
+      {
+        "thumbnail": "http://thumbnail-4" ,
+        "sellerId": "555" ,
+        "sellerName": "seller4" ,
+        "rating": 4.8
+      }
+    ]
+  }
+}
